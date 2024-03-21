@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ff8fa9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-header img {
+            width: 150px;
+            border-radius: 50%;
+            border: 5px solid #ff4949;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .profile-header h1 {
+            margin-top: 10px;
+            color: #333;
+        }
+        .profile-details {
+            background-color: #f9b6ec;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .profile-details p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="profile-header">
+        <img src="vivi.jpg" alt="Profil Picture" >
+        <h1>About Me</h1>
+    </div>
+    <div class="profile-details">
+        <p><strong>Umur:</strong> 20 tahun</p>
+        <p><strong>Alamat:</strong> Jl. Sudirman Desa Dompas, Kecamatan Bukit batu</p>
+        <p><strong>Kabupaten:</strong> Bengkalis</p>
+        <p><strong>Provinsi:</strong> Riau</p>
+        <p><strong>Email:</strong> vivianhnf@gmail.com</p>
+        <p><strong>Riwayat Pendidikan</strong> Universitas Pamulang - 2021-sekarang <br>
+            SMKN 1 Bukit Batu- 2018-2021
+        </p>
+        <!--  tombol Kembali ke Menu Utama -->
+        <button onclick="backToMainMenu()">Kembali ke Menu Utama</button>
+    </div>
+</div>
+
+<script>
+    function backToMainMenu() {
+        // Redirect to the main menu page
+        window.location.href = "index.html";
+    }
+</script>
+
+</body>
+</html>
